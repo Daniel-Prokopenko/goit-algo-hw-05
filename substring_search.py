@@ -1,6 +1,6 @@
 import timeit
 
-with open("стаття 1.txt", "r", encoding="utf-8") as f:
+with open("statement 1.txt", "r") as f:
     text = f.read()
 
 
@@ -169,7 +169,7 @@ print(f"text_1: kmp with fake pattern: {timeit.timeit(wrapper_kmp, number=1000)}
 
 print("=" * 50)
 
-with open("стаття 2.txt", "r", encoding="utf-8") as f:
+with open("statement 2.txt", "r") as f:
     text = f.read()
 pattern = (
     "розгорнутий список показав найкращі показники швидкодії та використання пам’яті"
